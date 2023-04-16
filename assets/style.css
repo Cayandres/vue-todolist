@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.container{
+  width: 30%;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgb(112, 112, 112);
+  margin-top: 20px;
+}
+
+
+
+.logo{
+  text-align: center;
+  padding: 30px;
+}
+
+.logo h1{
+  font-size: 60px;
+}
+
+.logo img{
+  
+  width: 100px;
+}
+.logo span{
+  font-size: 40px;
+}
+
+.input-area{
+  text-align: center;
+}
+
+.input-area input, .input-area button{
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input-area input{
+  width: 400px;
+  margin-right: 20px;
+}
+
+.tasks-list li{
+  align-items: center;
+ list-style: none;
+ display: flex;
+ justify-content: space-between;
+ line-height: 60px;
+ border-bottom: 1px solid rgb(247, 247, 247);
+ padding: 0 20px;
+ cursor: pointer;
+}
+
+.tasks-list li:hover{
+ background-color: rgb(225, 225, 225);
+}
+
+.tasks-list li i:hover{
+  color: red;
+}
+
+.done span{
+  text-decoration: line-through;
+}
+
+.error{
+  color: red;
+}
