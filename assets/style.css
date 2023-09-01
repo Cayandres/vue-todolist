@@ -49,17 +49,17 @@
 
 .tasks-list li{
   align-items: center;
- list-style: none;
- display: flex;
- justify-content: space-between;
- line-height: 60px;
- border-bottom: 1px solid rgb(247, 247, 247);
- padding: 0 20px;
- cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  line-height: 60px;
+  border: 1px solid rgb(247, 247, 247);
+  padding: 0 20px;
+  cursor: pointer;
 }
 
 .tasks-list li:hover{
- background-color: rgb(225, 225, 225);
+  background-color: rgb(225, 225, 225);
 }
 
 .tasks-list li i:hover{
